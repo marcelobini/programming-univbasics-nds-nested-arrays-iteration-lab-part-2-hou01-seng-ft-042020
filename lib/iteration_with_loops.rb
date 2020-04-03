@@ -12,10 +12,10 @@ def find_min_in_nested_arrays(src)
 array_of_daily_temperatures
 outer_results = []
 row_index = 0
-while row_index < spice_rack.count do
+while row_index < array_of_daily_temperatures.count do
   element_index = 0
-  longest_string_element = ""
-  while element_index < spice_rack[row_index].count do
+  lowest_temperature_element = ""
+  while element_index < array_of_daily_temperatures[row_index].count do
 
     # Array at row_index
     # Element of the inner array at element_index
