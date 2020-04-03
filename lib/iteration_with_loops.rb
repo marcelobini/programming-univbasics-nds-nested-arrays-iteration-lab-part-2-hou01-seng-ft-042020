@@ -13,7 +13,7 @@ def find_min_in_nested_arrays(src)
   array_2 = [
     [1,2,3],
     [5,1,3],
-    [4,3,0] 
+    [4,3,0]
   ]
   # Produce a new Array that contains the smallest number of each of the nested arrays
 
