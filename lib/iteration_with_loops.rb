@@ -16,6 +16,7 @@ def find_min_in_nested_arrays(src)
     [4,3,0]
   ]
   # Produce a new Array that contains the smallest number of each of the nested arrays
+end
   def find_greater_pair
   row = 0
      array = []
