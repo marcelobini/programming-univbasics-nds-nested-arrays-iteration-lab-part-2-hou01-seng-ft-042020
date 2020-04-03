@@ -4,14 +4,10 @@
 
 #end
 def find_greater_pair(src)
-row = 0
    array = []
-   while row < src.length do
-     if src[row][0] > src[row][1]
-       array.push(src[row][0])
-     else
-       array.push(src[row][1])
-     end
-       row += 1
-   end
-   
+   row_index = 0
+ while row_index < src.count do
+   array[row_index] = src[row_index].max
+   row_index += 1
+ end
+ array
