@@ -9,6 +9,19 @@ def find_min_in_nested_arrays(src)
     [25, 29, 30, 36, 39, 45, 49, 50, 52, 57, 58, 59, 60, 66, 65, 59, 54, 49, 45, 40, 36, 30, 26, 24],
     [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
   ]
-
+end
   # Produce a new Array that contains the smallest number of each of the nested arrays
+  def find_greater_pair(src)
+  row = 0
+     array = []
+     while row < src.length do
+       if src[row][0] > src[row][1]
+         array.push(src[row][0])
+       else
+         array.push(src[row][1])
+       end
+         row += 1
+     end
+     array
+end
 end
