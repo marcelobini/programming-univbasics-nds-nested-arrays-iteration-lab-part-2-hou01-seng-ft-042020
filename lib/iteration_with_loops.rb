@@ -11,5 +11,5 @@ def find_min_in_nested_arrays(src)
   ]
 array_of_daily_temperatures
   # Produce a new Array that contains the smallest number of each of the nested arrays
-array = array.min
+array = array.max
 end
