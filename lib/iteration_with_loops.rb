@@ -10,29 +10,5 @@ def find_min_in_nested_arrays(src)
     [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
   ]
 array_of_daily_temperatures
-outer_results = []
-row_index = 0
-while row_index < array_of_daily_temperatures.count do
-  element_index = 0
-  lowest_temperature_element = ""
-  while element_index < array_of_daily_temperatures[row_index].count do
-
-    # Array at row_index
-    # Element of the inner array at element_index
-    # If the length of the current element is greater than the length of longest_string_element
-    # Set longest_string_element to the current element
-    if array_of_daily_temperatures[row_index][element_index].length > lowest_temperature_element
-      lowest_temperature_element = array_of_daily_temperatures[row_index][element_index]
-    end
-    element_index += 1
-  end
-
-  # We have to check every element in each inner array, so after the loop finishes
-  # The current value of longest_string_element is pushed into outer_results
-  outer_results << longest_string_element
-  row_index += 1
-end
-
-outer_results
-end
   # Produce a new Array that contains the smallest number of each of the nested arrays
+array.min
