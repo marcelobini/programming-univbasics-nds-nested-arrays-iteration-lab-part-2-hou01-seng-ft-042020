@@ -1,5 +1,12 @@
 def find_min_in_nested_arrays(src)
   # src will be an array of arrays of integers
+  array = []
+  row_index = 0
+while row_index < src.count do
+  array[row_index] = src[row_index].mix
+  row_index += 1
+end
+array
   array_of_daily_temperatures = [
     [19, 21, 24, 26, 30, 34, 37, 39, 40, 45, 48, 50, 55, 60, 63, 59, 49, 45, 40, 39, 34, 32, 25, 18],
     [17, 18, 22, 26, 31, 35, 38, 40, 43, 45, 49, 52, 55, 61, 60, 59, 55, 49, 45, 38, 32, 30, 24, 19],
