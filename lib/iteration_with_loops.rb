@@ -21,8 +21,8 @@ while row_index < array_of_daily_temperatures.count do
     # Element of the inner array at element_index
     # If the length of the current element is greater than the length of longest_string_element
     # Set longest_string_element to the current element
-    if spice_rack[row_index][element_index].length > longest_string_element.length
-      longest_string_element = spice_rack[row_index][element_index]
+    if array_of_daily_temperatures[row_index][element_index].length > lowest_temperature_element
+      lowest_temperature_element = array_of_daily_temperatures[row_index][element_index]
     end
     element_index += 1
   end
