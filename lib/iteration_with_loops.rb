@@ -15,4 +15,3 @@ row = 0
        row += 1
    end
    array
- end
